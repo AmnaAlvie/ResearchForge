@@ -2,18 +2,19 @@
 
 ## 📖 Overview
 
-ResearchForge is an AI-powered research assistant that automates literature review, gap analysis, and hypothesis generation. This guide will help you get the project running on your local machine.
+ResearchForge is an AI-powered research assistant that automates literature review, gap analysis, hypothesis generation, and draft research paper generation. This guide will help you get the project running on your local machine.
 
 ---
 
 ## 🎯 What This Project Does
 
-ResearchForge performs a complete 4-phase research analysis pipeline:
+ResearchForge performs a complete 5-stage research workflow:
 
 1. **📄 Paper Collection** - Automatically gathers 10-15 research papers from arXiv, Google Scholar, and ClinicalTrials.gov
 2. **📚 Literature Review** - Generates comprehensive academic review using GPT-3.5-turbo
 3. **🔍 Gap Analysis** - Identifies research gaps using dual AI models (Flan-T5-Large + GPT-4)
 4. **💡 Hypothesis Generation** - Creates actionable research proposals with novelty scoring
+5. **📝 Research Paper Draft Generation** - Produces a structured draft paper with title, abstract, methodology, discussion, conclusion, and references
 
 **Time savings:** What takes researchers weeks → Done in 2-3 minutes
 
@@ -56,7 +57,7 @@ Before starting, you'll need:
 
 ### **Step 1: Clone the Repository**
 ```bash
-git clone https://github.com/Radia-987/ResearchForge.git
+git clone https://github.com/AmnaAlvie/ResearchForge.git
 cd ResearchForge
 ```
 
@@ -156,11 +157,12 @@ If it doesn't, manually navigate to the URL shown in the terminal.
 
 3. **Wait 2-3 minutes** (progress shown in terminal)
 
-4. **View Results in 3 Tabs:**
+4. **View Results in 5 Tabs:**
    - 📚 Literature Review
    - 🔍 Gap Analysis
    - 💡 Research Hypotheses
    - 🧪 Experiment Design
+   - 📝 AI Paper Writer
 
 ---
 
